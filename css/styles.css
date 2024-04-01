@@ -121,6 +121,10 @@ img {
   gap: 40px;
 }
 
+.contacts-item {
+  padding: 24px 0;
+}
+
 .header-contacts .contacts-link:hover,
 .header-contacts .contacts-link:focus {
   color: #404bbf;
@@ -300,6 +304,7 @@ img {
 
 .info-item {
   background: #fff;
+  width: calc((100% - 48px) / 3);
 }
 
 .info-subtitle {
@@ -321,7 +326,6 @@ img {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  width: calc((100% - 48px) / 3);
 }
 
 .info-item-paragraph {
