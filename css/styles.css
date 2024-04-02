@@ -83,7 +83,6 @@ img {
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .menu-item {
@@ -96,6 +95,7 @@ img {
 
 .menu-item-link {
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .menu-item-link:hover,
